@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Архитетктурный блог</title>
+</head>
+
+<body class="page">
+    <header class="page__header">
+        <nav class="page__header-nav container">
+            <a class="page__header-nav-logo logo" href="#">
+                <img class="logo__pic" src="img/logo.svg" width="370" height="40" alt="Логотип архитетурного блога">
+            </a>
+            <menu class="page__header-menu menu">
+                <li class="menu__item">
+                    <a class="menu__item-link" href="#">Современные здания</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item-link" href="#">Старинные здания</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item-link" href="#">Последние проекты</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__item-link" href="news.html">Архитектурные новости</a>
+                </li>
+
+            </menu>
+        </nav>
+    </header>
+    <main class="page__content main">
+        <h1 class="visually-hidden">Кладесь архитектурных решений</h1>
+
+        <section class="main__intoduction">
+            <div class="container">
+                <h2 class="visually-hidden">Архитектурный колейдоскоп</h2>
+                <ul class="main__intoduction-list pics-tile">
+                    <li class="pics-tile__item pics-tile__item--big">
+                        <h3 class="pics-tile__item-heading pics-tile__item-heading--big">Самые актуальные архитектурные новости
+                        </h3>
+                        <img class="pics-tile__item-pic" src="img/intro-1.jpg" width="780" height="490" alt="Прогрессивный фасад здания">
+                        <a href="#" class="pics-tile__item-link ">смотреть</a>
+                    </li>
+                    <li class="pics-tile__item">
+                        <h3 class="pics-tile__item-heading">Архитектурная мода 2019 года</h3>
+                        <img class="pics-tile__item-pic" src="img/intro-2.jpg" width="375" height="241" alt="Волнистый фасад здания">
+                        <a href="#" class="pics-tile__item-link">смотреть</a>
+                    </li>
+                    <li class="pics-tile__item">
+                        <h3 class="pics-tile__item-heading">Современные строения</h3>
+                        <img class="pics-tile__item-pic" src="img/intro-3.jpg" width="375" height="241" alt="Фасад в стиле парус">
+                        <a href="#" class="pics-tile__item-link">смотреть</a>
+                    </li>
+                </ul>
+                <ul class="main__intoduction-btn-list change-btns">
+                    <li class="change-btns__item">
+                        <button class="change-btns__btn"><span class="visually-hidden">переключить
+                                    слайд</span></button>
+                    </li>
+                    <li class="change-btns__item">
+                        <button class="change-btns__btn change-btns__btn--black-selected"><span
+                                    class="visually-hidden">переключить
+                                    слайд</span></button>
+                    </li>
+                    <li class="change-btns__item">
+                        <button class="change-btns__btn"><span class="visually-hidden">переключить
+                                    слайд</span></button>
+                    </li>
+                    <li class="change-btns__item">
+                        <button class="change-btns__btn"><span class="visually-hidden">переключить
+                                    слайд</span></button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main__modern">
+            <div class="container">
+                <h2 class="main__modern-title section-title">Современные здания</h2>
+                <ul class="main__modern-list">
+                    <li class="main__modern-item">
+                        <img class="main__modern-item-pic main__modern-item-pic--big" src="img/modern-1.jpg" width="404" height="623" alt="здание скрученой формы">
+                        <a class="main__modern-item-link tiles-link" href="#">Офисные здания</a>
+                    </li>
+                    <li class="main__modern-item">
+
+                        <img class="main__modern-item-pic" src="img/modern-2.jpg" width="332" height="292" alt="высотки">
+                        <img class="main__modern-item-pic" src="img/modern-3.jpg" width="363" height="292" alt="стеклянные фасады здания">
+                        <img class="main__modern-item-pic" src="img/modern-4.jpg" width="715" height="245" alt="стеклянные фасады здания">
+
+                        <a class="main__modern-item-link tiles-link" href="#">жилые помещения</a>
+                    </li>
+
+                </ul>
+                <div class="main__modern-link-wraper to-up">
+                    <a class="to-up__link" href="#">Наверх</a>
+                </div>
+            </div>
+        </section>
+        <section class="main__subscribe-one subscribe">
+            <div class="container">
+                <h2 class="visually-hidden">Подписаться можно здесь</h2>
+                <div class="subscribe__wraper">
+                    <p class="subscribe__desc">Подпишитесь на нашу e-mail рассылку</p>
+                    <form class="subscribe__form scribe-form" action="#" method="GET">
+                        <label for="scribe-1" class="visually-hidden">Введите Ваш e-mail</label>
+                        <input class="scribe-form__field" type="email" name="subscriber" id="scribe-1" placeholder="Введите Ваш e-mail">
+                        <button class="scribe-form-btn">подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="main__antyc">
+            <div class="container">
+                <h2 class="main__antyc-title section-title">Старинные здания</h2>
+                <ul class="main__antyc-list">
+                    <li class="main__antyc-item">
+                        <img class="main__antyc-item-pic--margin" src="img/antyc-1.jpg" width="579" height="386" alt="Тадж-Махал">
+                        <a class="main__antyc-item-link tiles-link" href="#">религиозные строения</a>
+                    </li>
+                    <li class="main__antyc-item">
+                        <div class="main__antyc-item-c">
+                            <img class="main__antyc-item-pic" src="img/antyc-2.jpg" width="303" height="200" alt="Греческая коллонада">
+                            <img class="main__antyc-item-pic" src="img/antyc-3.jpg" width="303" height="133" alt="Классика модерна">
+                            <img class="main__antyc-item-pic" src="img/antyc-4.jpg" width="217" height="346" alt="Мексиканкая пирамида">
+                        </div>
+                        <a class="main__antyc-item-link tiles-link" href="#">туристические здания</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main__news">
+
+            <h2 class="main__news-title section-title">Архитектурные новости</h2>
+
+            <p class="main__news-desc">Самые необычные здания <span class="main__news-desc--bold">во всем мире</span>
+            </p>
+            <a class="main__news-link" href="#">смотреть</a>
+
+            <ul class="main__news-change-btn-list change-btns">
+                <li class="change-btns__item">
+                    <button class="change-btns__btn change-btns__btn--white"><span class="visually-hidden">переключить
+                                слайд</span></button>
+                </li>
+                <li class="change-btns__item">
+                    <button class="change-btns__btn change-btns__btn--white change-btns__btn--white-selected"><span
+                                class="visually-hidden">переключить
+                                слайд</span></button>
+                </li>
+                <li class="change-btns__item">
+                    <button class="change-btns__btn change-btns__btn--white"><span class="visually-hidden">переключить
+                                слайд</span></button>
+                </li>
+                <li class="change-btns__item">
+                    <button class="change-btns__btn change-btns__btn--white"><span class="visually-hidden">переключить
+                                слайд</span></button>
+                </li>
+            </ul>
+            <div class="main__news-btn-wraper">
+                <button class="main__news-btn main__news-btn--left"><span class="visually-hidden">Влево</span></button>
+                <button class="main__news-btn main__news-btn--right"><span class="visually-hidden">Вправо</span></button>
+            </div>
+        </section>
+        <section class="main__subscribe-two subscribe">
+            <h2 class="visually-hidden">Подписаться можно здесь</h2>
+            <div class="subscribe__wraper">
+                <p class="subscribe__desc">Подпишитесь на нашу e-mail рассылку</p>
+                <form class="subscribe__form scribe-form" action="#" method="GET">
+                    <label for="scribe-1" class="visually-hidden">Введите Ваш e-mail</label>
+                    <input class="scribe-form__field" type="email" name="subscriber" id="scribe-1" placeholder="Введите Ваш e-mail">
+                    <button class="scribe-form-btn">подписаться</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page__footer">
+        <ul class="page__footer-link-list social-list">
+            <li class="social-list__item">
+                <a class="social-list__link social-list__link--fb" href="#">
+                    <span class="visually-hidden">facebook</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link social-list__link--tw" href="#">
+                    <span class="visually-hidden">twitter</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link social-list__link--inst" href="#">
+                    <span class="visually-hidden">instagram</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link  social-list__link--pint" href="#">
+                    <span class="visually-hidden">pinterest</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link  social-list__link--goo" href="#">
+                    <span class="visually-hidden">google</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link  social-list__link--spot" href="#">
+                    <span class="visually-hidden">spotify</span>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link social-list__link--timb" href="#">
+                    <span class="visually-hidden">tumbir</span>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>

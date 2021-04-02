@@ -1,7 +1,93 @@
+.news-article__bread-crumbs {
+    margin-bottom: 27px;
+}
+
+.news__article-header-title {
+    margin-bottom: 28px;
+}
+
+.news__article-header-heading {
+    max-height: 110px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 170%;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.news__article-header-leading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 170%;
+    margin: 0 0 40px 0;
+    padding: 5px 0;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+
+/*metas start*/
+
+.metas {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    border-bottom: 1px solid var(--btn-stroke-color);
+}
+
+.news__article-header-meta {
+    margin-bottom: 55px;
+}
+
+.metas-block {
+    margin-top: 15px;
+    padding-left: 48px;
+    padding-right: 20px;
+    background-image: url("../img/Autor.svg");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+
+.metas-block:nth-of-type(2) {
+    background-image: url("../img/Clock.svg");
+}
+
+.metas-block:nth-of-type(3) {
+    background-image: url("../img/Calendar.svg");
+}
+
+.metas-block__termin {
+    margin-bottom: 8px;
+    max-width: 350px;
+    max-height: 30px;
+    overflow: hidden;
+    color: var(--transparent-black);
+}
+
+.metas-block__data {
+    margin: 0;
+    max-width: 350px;
+    max-height: 30px;
+    overflow: hidden;
+    color: var(--akcent-red);
+}
+
+
+/*metas end*/
+
 .news__article-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 170%;
+    margin: 0;
+    padding: 5px 0;
+    overflow: hidden;
     color: var(--text-color);
 }
 

@@ -151,3 +151,11 @@
 .news__article-pics-img:nth-of-type(3) {
     margin-top: 20px;
 }
+
+.other-news__link {
+    display: flex;
+}
+
+.other-news__desc {
+    max-width: 138px;
+}

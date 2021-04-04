@@ -68,8 +68,8 @@ img {
 
 .section-title {
     width: 246px;
-    height: 38px;
-    padding-top: 8px;
+    max-height: 38px;
+    padding: 8px;
     margin: 0;
     text-align: center;
     overflow: hidden;
@@ -423,8 +423,8 @@ img {
 /* up link start */
 
 .main__modern-link-wraper {
-    left: 1177px;
-    bottom: 52px;
+    left: 1262px;
+    bottom: 86px;
 }
 
 .to-up {
@@ -457,6 +457,29 @@ img {
     border-radius: 50%;
     border: 1px solid var(--text-color);
     padding: 7px 9.5px 11px;
+}
+
+.to-up__link:hover::after {
+    background-color: var(--text-color);
+    color: var(--base-white);
+}
+
+.to-up__link::before {
+    visibility: hidden;
+    margin-right: -188px;
+    content: "";
+    border-radius: 50%;
+    border: 1px solid var(--text-color);
+    background-color: var(--text-color);
+    background-image: url("../img/share-sign.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding: 11px 19px;
+}
+
+.to-up__link:hover::before {
+    visibility: visible;
 }
 
 .to-up__link:hover {
